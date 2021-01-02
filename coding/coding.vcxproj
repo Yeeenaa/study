@@ -19,12 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BOJ10773.cpp" />
-    <ClCompile Include="BOJ14681.cpp" />
-    <ClCompile Include="BOJ2577.cpp" />
-    <ClCompile Include="BOJ4344.cpp" />
-    <ClCompile Include="BOJ8958.cpp" />
-    <ClCompile Include="BOJ3052.cpp" />
+    <ClCompile Include="PG3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
