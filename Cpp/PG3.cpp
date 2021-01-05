@@ -9,9 +9,9 @@ vector<string> solution(vector<string> strings, int n) {
 	for (int i = 0; i < (strings.size() - 1); i++) {
 		for (int j = i + 1; j < strings.size(); j++) {
 			if (strings[i][n] > strings[j][n]) {
-				string s = strings[i];
-				strings[i] = strings[j];
-				strings[j] = s;
+				string s = strings.at(i);
+				strings.at(i) = strings.at(j);
+				strings.at(j) = s;
 			}
 			else if (strings[i][n] == strings[j][n]) {
 				for (int k = 0; strings[j].size() > k || strings[i].size() > k; k++) {
@@ -22,6 +22,7 @@ vector<string> solution(vector<string> strings, int n) {
 							strings[j] = s;
 						}
 					}
+					
 				}
 			}
 		}
