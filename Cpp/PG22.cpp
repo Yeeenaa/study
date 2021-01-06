@@ -7,7 +7,7 @@ int solution(int num) {
 	int answer = 0;
 	int i;
 	long long N = num;
-	for (i = 0; N != 1 || i > 500; i++) {
+	for (i = 0; N != 1 && i < 500; i++) {
 		if (N % 2 == 0) {
 			N /= 2;
 			answer++;
@@ -18,7 +18,7 @@ int solution(int num) {
 			answer++;
 		}
 	}
-	if (i > 500) answer = -1;
+	if (i == 500) answer = -1;
 	cout << answer;
 	return answer;
 }

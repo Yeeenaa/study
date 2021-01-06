@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PG22.cpp">
+    <ClCompile Include="PG28.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PG29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
